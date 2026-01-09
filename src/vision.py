@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import numpy as np
 
-from config import FINGERS_ID
+from config import FINGERS_ID, CAMERA_INDEX
 
 class HandTracker:
     def __init__(self):
@@ -69,7 +69,7 @@ def calibrate_camera():
             points.append([x, y])
             print(f"Punto {len(points)}: {x, y}")
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(CAMERA_INDEX)
     print("--- CALIBRACION ---")
     print("Haz click en las 4 esquinas del piano imaginario en orden (TL, TR, BR, BL)")
     

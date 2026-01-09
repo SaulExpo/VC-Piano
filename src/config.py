@@ -18,7 +18,8 @@ BLACK_NOTE_HEIGHT_RATIO = 0.5
 TRANSPARENCY_ALPHA = 0.4 # 0.0 invisible, 1.0 totalmente opaco (teclas virtuales)
 
 # --- VISIÓN ---
-FINGERS_ID = [8, 12, 16, 20] 
+FINGERS_ID = [8, 12, 16, 20]
+CAMERA_INDEX = 0
 
 # --- JUEGO ---
 FALL_SPEED = 6

@@ -1,9 +1,9 @@
 # main.py
 import cv2
 import numpy as np
-import config
 import pygame
 
+import config
 from vision import HandTracker, calibrate_camera
 from audio_engine import AudioEngine
 from ui import PianoUI
@@ -41,7 +41,7 @@ def main():
     ui = PianoUI()
     game = RhythmGame()
     
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(config.CAMERA_INDEX)
 
     # Configuramos la ventana de Cámara con el callback
     cv2.namedWindow("Camara")
