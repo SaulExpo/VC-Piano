@@ -8,3 +8,6 @@ Proyecto académico consistente en el desarrollo de un piano virtual interactivo
 
 **Asignatura:** Visión por Computador  
 **Curso:** 2025–2026
+
+**Enlace del video**
+https://docs.google.com/spreadsheets/d/1-AUHo6NYz7m8-eeQXkRFZLLBVDvsuOnyTN8ZmEaAPLk/edit?usp=sharing
